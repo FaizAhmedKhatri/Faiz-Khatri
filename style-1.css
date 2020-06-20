@@ -1,6 +1,7 @@
         body{
-			background-color: #fcba03;
+			background-image: linear-gradient(90deg,#ff33cc,#ffcc00);
 			font-family: Sitka Small;
+			overflow-x: hidden;
 		}
 
 		#prof-img{
@@ -23,6 +24,19 @@
 			font-size: 50px;
 		}
 
+		.position-1{
+			margin-left: 8px;
+			letter-spacing: 4px;
+		}
+
+		#career-obj{
+			margin-top: 100px;
+			font-size: 30px;
+			font-weight: bold;
+			border-bottom: 5px solid #000;
+			width: 340px;
+		}
+
 		#education{
 			margin-top: 100px;
 			font-size: 30px;
@@ -34,6 +48,7 @@
 		#bach{
 			margin-top: 40px;
 			font-weight: bold;
+			font-size: 22px;
 		}
 
 		#about-me{
@@ -89,11 +104,42 @@
 			font-size: 30px;
 			font-weight: bold;
 			border-bottom: 5px solid #000;
-			width: 100px;
+			width: 130px;
 		}
 
 		#skillset{
 			margin-top: 20px;
+		}
+
+		#skillset > h4{
+			word-spacing: 150px;
+			margin-left: 15px;
+		}
+
+		#skillset-1{
+			margin-top: 20px;
+		}
+
+		#skillset-1 > h4{
+			word-spacing: 120px;
+			margin-left: 15px;
+		}
+
+		#skillset-2{
+			margin-top: 20px;
+		}
+
+		#skillset-2 > h4{
+			word-spacing: 200px;
+			margin-left: 15px;
+		}
+
+		#skillset-3{
+			margin-top: 20px;
+		}
+
+		#skillset-3 > h4{
+			margin-left: 15px;
 		}
 
 		#website{
@@ -113,6 +159,70 @@
 			text-decoration: none;
 		}
 
+		#certificate{
+			margin-top: 50px;
+			font-size: 30px;
+			font-weight: bold;
+			border-bottom: 5px solid #000;
+			width: 250px;
+		}
+
+		#curricular-activity{
+			margin-top: 50px;
+			font-size: 30px;
+			font-weight: bold;
+			border-bottom: 5px solid #000;
+			width: 550px;
+		}
+
+		#details{
+			margin-top: 50px;
+			font-size: 30px;
+			font-weight: bold;
+			border-bottom: 5px solid #000;
+			width: 340px;
+		}
+
+		#name > label{
+			margin-left: 15px;
+		}
+
+		#dob > label{
+			margin-left: 15px;
+		}
+
+		#mar-status > label{
+			margin-left: 15px;
+		}
+
+		#addr > label{
+			margin-left: 15px;
+		}
+
+		#language > label{
+            margin-left: 15px;
+		}
+
+		#hobby > label{
+		    margin-left: 15px;	
+		}
+
+		#strength > label{
+			margin-left: 15px;
+		}
+
+		#name{
+			margin-top: 40px;
+		}
+
+		#declaration{
+			margin-top: 50px;
+		}
+
+		#place{
+			margin-top: 40px;
+		}
+
 		@media(max-width: 767px){
 		#prof-img{
 			width: 150px;
@@ -128,6 +238,14 @@
 		  }
 		  .right-part{
 			margin-left: 0px;
+		}
+		hr{
+			display: none;
+		}
+
+		.position-1{
+			margin-left: 70px;
+			letter-spacing: 4px;
 		}
 
 		}
