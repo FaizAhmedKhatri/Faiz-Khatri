@@ -1,171 +1,246 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1 ">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="style-1.css">
-	
-		
-
+  <title>Resume</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style-1.css">
+  <style>
+  	.fa{
+  		color: orange;
+  		font-size: 45px;
+  	}
+  	@media(max-width: 767px){
+  		.fa{
+  		color: orange;
+  		font-size: 30px;
+  	}
+  	}
+  </style>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-<div class="container-fluid">
-	<div class="row d-flex px-0 mx-auto">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+     
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#description">Description</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#resume">Resume</a></li>
+   
+      </div>
+    </div>
+  </div>
+</nav>    
 
-		<div class="col-md-3 col-xs-4 mt-4 p-2 justify-content-center ccc">
-			<img src="img-prof-1.jpeg" id="prof-img">
-			<h2 id="name-1" class="text-center mt-2">Faiz Ahmed Khatri</h2>
-			<h3 class="position-1">WEB DEVELOPER</h3>
-			<div class="ml-2">
-				<h3 id="career-obj">CAREER OBJECTIVE</h3>
-				
-				<p id="para-0">
-					To work in an organization which provides opportunities and an environment to learn and work, and to contribute to the organization’s growth.  
-  
-				</p>
-			</div>
-
-			<div class="ml-2">
-				<h3 id="education">EDUCATION</h3>
-				<h4 id="bach">Bachelor's in Engineering</h4>
-				<p id="para-1">
-					August 1 2014 - June 10 2019<br />
-					Anjuman I Islam Kalsekar Technical Campus<br />
-					Completed BE in EXTC Engineering. <br /> 
-				</p>
-			</div>
-		</div>
-
-		<div class="v1 col-md-1"></div>
-
-		<div class="col-md-6 right-part">
-			<h3 id="about-me">ABOUT ME</h3>
-			<p id="para-2">
-				Frontend Developer with 3 months of experience in designing and 
-				developing User Interfaces within Professional Website. 
-				Proven ability in optimizing web functionalities that improve data 
-				retrieval and workflow effeciences.
-			</p>
-			<hr class="d-xs-none">
-
-			<h3 id="work-exp">WORK EXPERIENCE</h3>
-			<h4 class="" id="jun-dev">Junior Frontend Developer
-			<span id="date-1">Jan 7 2020 - April 3 2020</span></h4>
-			<p class="mt-2" id="address">
-				Get A Vist, Chembur East
-			</p>
-			<p id="para-3">
-				<ul>
-					<li>Deigned and Developed user friendly Website including 
-					optimized check out pages.</li>
-					<li>Fixed bugs in existing Websites and implemented enhancements
-					that significantly improved web functionalities and speed.</li>
-					<li>Developed Desktop as well as Mobile Compatible webpages that
-					makes user friendly.</li>
-				</ul>
-			</p>
-			
-			<hr>
-
-			<h3 id="skills">SKILLS</h3>
-
-			<div class="row" id="skillset">
-			<h4>HTML/CSS JavaScript</h4>
-			</div>
-
-			<div class="row" id="skillset-1">
-			<h4>Bootstrap3/4 Reactjs</h4>
-			</div>
-
-			<div class="row" id="skillset-2">
-			<h4>jQuery Photoshop</h4>
-			</div>
-
-			<div class="row" id="skillset-3">
-			<h4>Adobe Xd</h4>
-			<h4></h4>
-			</div>
-
-			<hr>
-
-			<h3 id="website">Self Made Websites</h3>
-			<ul class="web-1">
-			<li><a href="http://bhavyagems.in" target="_blank" class="web">www.bhavyagems.in</a><br /></li>
-			<li><a href="http://www.mistryconstructionco.in" class="web">www.mistryconstructionco.in</a></li>
-			</ul>
-
-			<hr>
-
-			<h3 id="certificate">CERTIFICATES</h3>
-			<ul class="cert-list">
-				<li>Stood First Position in Web Designing</li>
-			</ul>
-
-			<hr>
-
-			<h3 id="curricular-activity">EXTRA CURRICULAR ACTIVITIES</h3>
-			<ul>
-				<li>Participated in Parade Competition</li>
-				<li>Web Development Workshop</li>
-				<li>Python Workshop</li>
-			</ul>
-
-			<hr>
-
-			<h3 id="details">PERSONAL DETAILS</h3>
-			<div class="row" id="name">
-			<label>Name&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Faiz Ahmed Khatri</label>
-			</div>
-
-			<div class="row" id="dob">
-			<label>Date Of Birth
-			&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			13 Feb 1997</label>
-			</div>
-
-			<div class="row" id="mar-status">
-			<label>Marital Status
-			&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			Single</label>
-			</div>
-
-			<div class="row" id="addr">
-			<label>Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			&nbsp;&nbsp;	
-			Pydhonie. Mumbai - 03</label>
-			</div>
-			
-
-			<div class="row" id="language">
-			<label>Languages known
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; English, Marathi, Urdu, Hindi</label>
-			</div>
-
-			<div class="row" id="hobby">
-			<label>Hobbies
-			&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			&nbsp;&nbsp;&nbsp;Playing Cricket, Watching Movies</label>
-		
-			</div>
-
-			<div class="row" id="strength">
-			<label>Strengths
-			&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			Positive Thinking, Hardworking</label>
-			</div>
-
-			<p id="declaration">I hereby, declare that the above written particulars are true to the best of my knowledge and belief. </p>
-
-			<p id="place">Place : Mumbai</p>
-
-		</div>
-		
-	</div>
+<div id="description" class="container-fluid">
+  <div class="justify-content-center align-items-center">
+  	<center><img src="img-prof-1.jpeg" id="prof-img"></center>
+  </div>
+  <h2 id="name">Faiz Ahmed Khatri</h2>
+  <h3 id="name-1">FRONTEND DEVELOPER</h3>
 </div>
 
+<div id="about" class="">
+  <div class="heading-sec">
+  	<h1><i class="fa fa-user" aria-hidden="true"></i> About</h1>
+  </div>
+  <h2 class="head-2 container">Mission-driven Frontend Developer with a passion for UI design</h2>
+  <p class="para-1 container">Frontend Developer with 3 months of experience in designing and developing User Interfaces within Professional Website. Proven ability in optimizing web functionalities that improve data retrieval and workflow effeciences.</p>
+  <p class="para-1 container">As a web developer, I enjoy using my obsessive attention to detail, my unequivocal love for making things, and my mission-driven work ethic to literally change the world. That's why I’m excited to make a big impact at a high growth company.</p>
+</div>
+
+<div id="experience" class="">
+  <div class="heading-sec">
+  	<h1><i class="fa fa-bolt" aria-hidden="true"></i> Experience</h1>
+  </div>
+
+  <div class="container">
+  	<div class="col-md-12 col-xs-12 exp-1">
+  			<h2 class="col-md-6 col-xs-6 text-left left-1">Get A Visit</h2>
+  			<h2 class="col-md-6 col-xs-6 text-right right-1">Junior Frontend Developer</h2>
+  			<hr>
+
+  			<h3 id="exp-head" class="col-md-12 col-xs-12">Responsive Design to make User Friendly Webpage</h3>
+
+  			<h3 id="exp-head-1" class="col-md-12 col-xs-12">DEVELOP PRODUCT</h3>
+
+  			<ul>
+  				<li>Front-end development, creating app-wide design system</li>
+  				<li>Guide best practices around accessible, semantic UI/UX</li>
+  				<li>Tools: HTML, CSS, JS, jQuery, Bootstrap 3/4</li>
+  			</ul>
+
+  			<h3 class="col-md-12 col-xs-12" id="exp-head-1">ACCOMPLISHMENTS</h3>
+  			<ul>
+  				<li>Dramatically increased speed of UI development using sublime text, Bootstrap</li>
+  			</ul>
+
+  			<p class="col-md-12 col-xs-12 date-1">Jan 7 2020 - 3 April 2020</p>
+  	</div>
+  </div>
+
+</div>
+
+<div id="projects" class="">
+  <div class="heading-sec">
+  	<h1><i class="fa fa-list-alt" aria-hidden="true"></i> Projects</h1>
+  </div>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+
+<div id="skills" class="">
+  <div class="heading-sec">
+  	<h1><i class="fa fa-star" aria-hidden="true"></i> Skills</h1>
+  </div>
+  
+<div class="container">
+  <h3 class="html-heading">HTML</h3>
+  <div class="row col-md-12 col-xs-12 exp-1">
+  	<div class="col-md-2 col-xs-3">
+  		<img src="html-img.png" id="img-html">
+  		<h4 class="skills-heading-1">HTML</h4>
+  	</div>
+
+  	<div class="col-md-2 col-xs-3">
+  		<img src="react.png" id="img-react">
+  		<h4 class="skills-heading-2">JSX</h4>
+  	</div>
+  </div>
+
+
+
+<h3 class="css-heading">CSS</h3>
+  <div class="row col-md-12 col-xs-12 exp-1">
+  	<div class="col-md-2 col-xs-4 div-css-1">
+  		<img src="css3.png" id="img-css">
+  		<h4 class="skills-head-1">CSS 3</h4>
+  	</div>
+
+  	<div class="col-md-2 col-xs-4 div-css-2">
+  		<img src="saas.png" id="img-sass">
+  		<h4 class="skills-head-2">SASS</h4>
+  	</div>
+
+  	<div class="col-md-2 col-xs-4 div-css-3">
+  		<img src="bootstrap.png" id="img-bootstrap">
+  		<h4 class="skills-head-3">Bootstrap</h4>
+  	</div>
+  </div>
+
+  <h3 class="css-heading">JavaScript</h3>
+  <div class="row col-md-12 col-xs-12 exp-1">
+  	<div class="col-md-2 col-xs-5 div-js-1">
+  		<img src="javascript.jpg" id="img-javascript">
+  		<h4 class="skills-js-1">JavaScript</h4>
+  	</div>
+
+  	<div class="col-md-2 col-xs-3 div-js-2">
+  		<img src="jquery.png" id="img-jquery">
+  		<h4 class="skills-js-2">jQuery</h4>
+  	</div>
+
+  	<div class="col-md-2 col-xs-3 div-js-3">
+  		<img src="react.png" id="img-react">
+  		<h4 class="skills-js-3">Reactjs</h4>
+  	</div>
+  </div>
+
+  <h3 class="css-heading">Designing Tools</h3>
+  <div class="row col-md-12 col-xs-12 exp-1">
+  	<div class="col-md-2 col-xs-5">
+  		<img src="photoshop.png" id="img-photoshop">
+  		<h4 class="skills-design-1">Photoshop</h4>
+  	</div>
+
+  	<div class="col-md-2 col-xs-5">
+  		<img src="adobe-xd.png" id="img-adobe-xd">
+  		<h4 class="skills-design-2">Adobe Xd</h4>
+  	</div>
+
+  </div>
+
+</div>
+
+</div>
+
+
+
+<div id="education" class="">
+  <div class="heading-sec">
+  	<h1><i class="fa fa-graduation-cap" aria-hidden="true"></i> Education</h1>
+  </div>
+  <div class="container">
+  	<div class="col-md-12 col-xs-12">
+  		<div class="col-md-12 col-xs-12 edu-part ">
+  			<h3 id="clg-name">Anjuman I Islam Kalsekar Technical Campus</h3>
+  			<h4 id="clg-place">Panvel, Navi Mumbai</h4>
+  			<ul>
+  				<li>BE in Electronics and TeleCommunication Department</li>
+  			</ul>
+  		</div>
+  	</div>
+  </div>
+</div>
+
+<div id="contact" class="">
+  <div class="heading-sec">
+  	<h1><i class="fa fa-envelope-o"></i> Contact</h1>
+  </div>
+
+  <div class="container">
+  <div class="row col-md-12 col-xs-12">
+  	<div class="col-md-6 col-xs-6" id="e-mail">
+  		<a href="mailto:faizkhatri1997@gmail.com" target="_blank" id="mail"><i class="fa fa-envelope" id="mail-icon">
+  			
+  		</i></a>
+  	</div>
+
+  	<div class="col-md-6 col-xs-6" id="linked-in">
+  		<a href="https://www.linkedin.com/in/faiz-ahmed-khatri-6b6344118/" target="_blank" id="linkedin">
+  			<i class="fa fa-linkedin-square" id="linkedin-icon"></i>
+  		</a>
+  	</div>
+
+
+
+  	<div class="col-md-6 col-xs-6" id="phone">
+  		<a href="tel:+91 8104136255" target="_blank" id="calling">
+  			<i class="fa fa-phone" id="call-icon"></i>
+  		</a>
+  	</div>
+
+  	<div class="col-md-6 col-xs-6" id="whatsapp">
+  		<a href="tel:+91 8104136255" target="_blank" id="calling">
+  			<i class="fa fa-whatsapp" id="call-icon"></i>
+  		</a>
+  	</div>
+
+  	
+</div>
+ 
+
+  </div>
+
+</div>
 </body>
 </html>
