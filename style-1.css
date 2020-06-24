@@ -1,251 +1,673 @@
-        body{
-			background-image: linear-gradient(45deg,#00ffff);
-			font-family: Sitka Small;
-			overflow-x: hidden;
-		}
+  *{
+  	font-family: Lucida Console;
+  	color: #000;
+  }
+  body{
+  	background-color: #ffffe6;
+  	overflow-x: hidden;
+  }
 
-		#prof-img{
-			width: 200px;
-			height: 200px;
-			border: 5px solid #000;
-			border-radius: 50%;
-			object-fit: cover;
-			margin-left: 55px;
-		}
+  .navbar{
+  	background-color: #000;
+  	padding: 15px;
+  }
+  #description {
+  	padding-top:100px;
+  	height:550px;
+  	color: #000;
+  	background : #ffffe6;
+  	}
+  #about {
+  	padding-top:0px;
+  	height:500px;
+  	color: #fff;
+  	background-color: #ffffe6;
+  	}
+  #experience {
+  	padding-top:0px;
+  	height:auto;
+  	color: #fff; 
+  	background-color: #ffffe6;
+  	margin-bottom: 100px;
+  }
+  #education{
+  	padding-top:0px;
+  	height:auto;
+  	color: #fff; 
+  	background-color: #ffffe6;
+  	margin-bottom: 100px;
+  }
+  
+  .navbar-inverse .navbar-nav>.active>a, .navbar-inverse
+  .navbar-nav>.active>a:focus, .navbar-inverse 
+  .navbar-nav>.active>a:hover{
+  	color: orange;
+  }
 
-		.v1{
-			border-right: 2px solid #000;
-  			height: auto;
-		}
+  .navbar-nav > li > a{
+  	font-size: 25px;
+  	font-weight: bolder;
+  	color: #fff;
+  }
 
-		#name-1{
-			font-weight: bold;
-			color: #000;
-			font-size: 50px;
-		}
+  .navbar-nav > li{
+  	padding-left: 10px; 
+  }
 
-		.position-1{
-			margin-left: 8px;
-			letter-spacing: 4px;
-		}
+  #prof-img{
+  	width: 250px;
+  	height: 250px;
+  	border-radius: 50%;
+  	border : 10px solid #000;
+  	object-fit: cover;
+  }
 
-		#career-obj{
-			margin-top: 100px;
-			font-size: 30px;
-			font-weight: bold;
-			border-bottom: 5px solid #000;
-			width: 340px;
-		}
+  #name{
+  	font-size: 50px;
+  	font-weight: bolder;
+  	text-align: center;
+  }
+  
+  #name-1{
+  	text-align: center;
+  	letter-spacing: 10px;
+  	font-weight: bold;
+  	color: darkgrey;
+  }
 
-		#education{
-			margin-top: 100px;
-			font-size: 30px;
-			font-weight: bold;
-			border-bottom: 5px solid #000;
-			width: 200px;
-		}
+  .heading-sec{
+  	background: #000;
+  	width: 100%;
+  	height: 85px;
+  	margin-bottom: 50px;
+  }
 
-		#bach{
-			margin-top: 40px;
-			font-weight: bold;
-			font-size: 22px;
-		}
+  .heading-sec > h1{
+  	padding-top: 15px;
+  	text-align: center;
+  	color: orange;
+  	font-weight: bold;
+  	font-size: 3.5em;
+  }
 
-		#about-me{
-			margin-top: 100px;
-			font-size: 30px;
-			font-weight: bold;
-			border-bottom: 5px solid #000;
-			width: 180px;
-		}
+  .para-1{
+  	font-size: 25px;
+  	color: #000;
+  	margin-top: 25px;
+  }
 
-		.right-part{
-			margin-left: 50px;
-		}
+  .head-2{
+  	color: #000;
+  	font-weight: bold;
+  	font-size: 30px;
+  	border-left: 8px solid orange;
+  }
 
-		#para-2{
-			margin-top: 20px;
-		}
+  .exp-1{
+  	background-color: #fff;
+  	padding: 20px;
+  	height: auto;
+  	border-radius: 10px;
+  	margin-bottom: 30px;
+  }
 
-		hr{
-			border-bottom: 5px solid #000;
-			margin-top: 50px;
-		}
+  .exp-1 > h2{
+  	font-size: 30px;
+  	height: auto;
+  	font-weight: bold;
+  	color: orange;
 
-		#work-exp{
-			margin-top: 50px;
-			font-size: 30px;
-			font-weight: bold;
-			border-bottom: 5px solid #000;
-			width: 340px;
-		}
+  }
 
-		#jun-dev{
-			margin-top: 40px;
-			font-weight: bold;
-		}
+  .right-1{
+  	color: grey!important;
+  	font-style: italic;
+  	font-size: 25px!important;
+  }
 
-		#date-1{
-			color: #4d0000;
-			font-size: 15px;
-			font-weight: normal;
-		}
+  hr{
+  	color: #000;
+  	width: 100%;
+  }
 
-		#address{
-			font-size: 20px;
-		}
+  #exp-head{
+  	font-size: 25px;
+  	font-weight: bold;
+  	border-left: 8px solid orange;
+  }
 
-		ul > li{
-			padding-top: 10px;
-		}
+  #exp-head-1{
+  	font-size: 20px;
+  	font-weight: bold;
+  }
 
-		#skills{
-			margin-top: 50px;
-			font-size: 30px;
-			font-weight: bold;
-			border-bottom: 5px solid #000;
-			width: 130px;
-		}
+  ul > li{
+  	font-size: 20px;
+  }
 
-		#skillset{
-			margin-top: 20px;
-		}
+  .date-1{
+  	color: grey;
+  	font-size: 20px;
+  	margin-top: 20px;
+  }
 
-		#skillset > h4{
-			word-spacing: 150px;
-			margin-left: 15px;
-		}
+  .html-heading{
+  	font-size: 30px;
+  	font-weight: bold;
+  }
 
-		#skillset-1{
-			margin-top: 20px;
-		}
+  #img-html{
+  	width: 100px;
+  	height: 100px;
+  }
 
-		#skillset-1 > h4{
-			word-spacing: 120px;
-			margin-left: 15px;
-		}
+  #img-react{
+  	width: 110px;
+  	height: 100px;
+  }
 
-		#skillset-2{
-			margin-top: 20px;
-		}
+  .skills-heading-1{
+  	font-weight: bold;
+  	margin-left: 30px;
+  }
 
-		#skillset-2 > h4{
-			word-spacing: 200px;
-			margin-left: 15px;
-		}
+  .skills-heading-2{
+  	font-weight: bold;
+  	margin-left: 40px;
+  }
 
-		#skillset-3{
-			margin-top: 20px;
-		}
+  #img-css{
+  	width: 120px;
+  	height: 120px;
+  }
 
-		#skillset-3 > h4{
-			margin-left: 15px;
-		}
+  #img-bootstrap{
+  	width: 110px;
+  	height: 120px;
+  }
 
-		#website{
-			margin-top: 50px;
-			font-size: 30px;
-			font-weight: bold;
-			border-bottom: 5px solid #000;
-			width: 320px;
-		}
+  #img-sass{
+  	width: 100px;
+  	height: 120px;
+  }
 
-		.web{
-			text-decoration: none;
-			font-size: 22px;
-		}
+  .css-heading{
+  	font-size: 30px;
+  	font-weight: bold;
+  	padding-top: 50px;
+  }
 
-		.web:hover{
-			text-decoration: none;
-		}
+  .skills-head-1{
+  	margin-left: 28px;
+  	font-weight: bold;
+  }
 
-		#certificate{
-			margin-top: 50px;
-			font-size: 30px;
-			font-weight: bold;
-			border-bottom: 5px solid #000;
-			width: 250px;
-		}
+  .skills-head-2{
+  	margin-left: 30px;
+  	font-weight: bold;
+  }
 
-		#curricular-activity{
-			margin-top: 50px;
-			font-size: 30px;
-			font-weight: bold;
-			border-bottom: 5px solid #000;
-			width: 550px;
-		}
+  .skills-head-3{
+  	margin-left: 5px;
+  	font-weight: bold;
+  }
 
-		#details{
-			margin-top: 50px;
-			font-size: 30px;
-			font-weight: bold;
-			border-bottom: 5px solid #000;
-			width: 340px;
-		}
+  #img-javascript{
+  	width: 110px;
+  	height: 100px;
+  }
 
-		#name > label{
-			margin-left: 15px;
-		}
+  #img-jquery{
+  	width: 130px;
+  	height: 100px;
+  }
 
-		#dob > label{
-			margin-left: 15px;
-		}
+  .skills-js-1{
+  	margin-left: 0px;
+  	font-weight: bold;
+  }
 
-		#mar-status > label{
-			margin-left: 15px;
-		}
+  .skills-js-2{
+  	margin-left: 30px;
+  	font-weight: bold;
+  }
 
-		#addr > label{
-			margin-left: 15px;
-		}
+  .skills-js-3{
+  	margin-left: 15px;
+  	font-weight: bold;
+  }
 
-		#language > label{
-            margin-left: 15px;
-		}
+  #img-photoshop{
+  	width: 100px;
+  	height: 100px;
+  }
 
-		#hobby > label{
-		    margin-left: 15px;	
-		}
+  .skills-design-1{
+  	margin-left: 0px;
+  	font-weight: bold;
+  }
 
-		#strength > label{
-			margin-left: 15px;
-		}
+  #img-adobe-xd{
+  	width: 100px;
+  	height: 100px;
+  }
 
-		#name{
-			margin-top: 40px;
-		}
+  .skills-design-2{
+  	margin-left: 3px;
+  	font-weight: bold;
+  }
 
-		#declaration{
-			margin-top: 50px;
-		}
+  .edu-part{
+  	background-color:  #fff;
+  	width: 75%;
+  	padding: 20px;
+  	border-radius: 10px;
+  	justify-content: center;
+  	transform: translateX(18%);
+  }
 
-		#place{
-			margin-top: 40px;
-		}
+  #clg-name{
+  	font-weight: bold;
+  	font-size: 30px;
+  }
 
-		@media(max-width: 767px){
-		#prof-img{
-			width: 150px;
-			height: 150px;
-			border: 5px solid #000;
-			border-radius: 50%;
-			margin-left: 150px;
-		   }
-		   #name-1{
-			font-weight: bold;
-			color: #000;
-			font-size: 40px;
-		  }
-		  .right-part{
-			margin-left: 0px;
-		}
-		hr{
-			display: none;
-		}
+  #clg-place{
+  	font-size: 25px;
+  	color: grey;
+  }
 
-		.position-1{
-			margin-left: 70px;
-			letter-spacing: 4px;
-		}
+  #e-mail{
+  	width: 60px;
+  	height: 60px;
+  	border-radius: 50%;
+  	background-color: #000;
+  	box-shadow: 0px 0px 10px 10px orange;
+	padding: 13px 15px 15px 18px;
+	margin: 0px 30px;
+  }
 
-		}
+  #mail-icon{
+  	font-size: 25px;
+  	cursor: pointer;
+  }
+
+  #mail-icon:hover{
+  	transform: scale(1.5);
+  	animation: ease;
+  	animation-delay: 5s;
+  }
+
+  #mail{
+  	font-size: 25px;
+  	color: #000;
+  }
+
+  #mail:hover{
+  	color: orange;
+  	text-decoration: none;
+  }
+
+  #linked-in{
+  	width: 60px;
+  	height: 60px;
+  	border-radius: 50%;
+  	background-color: #000;
+  	box-shadow: 0px 0px 10px 10px orange;
+	padding:14px 15px 15px 20px;
+	margin: 0px 30px;
+  }
+
+  #linkedin{
+  	font-size: 25px;
+  	color: #000;
+  }
+
+  #linkedin-icon{
+  	font-size: 25px;
+  	cursor: pointer;
+  }
+
+   #phone{
+  	width: 60px;
+  	height: 60px;
+  	border-radius: 50%;
+  	background-color: #000;
+  	box-shadow: 0px 0px 10px 10px orange;
+	padding:14px 15px 15px 20px;
+	margin: 0px 30px;
+  }
+
+  #calling{
+  	font-size: 25px;
+  	color: #000;
+  }
+
+  #call-icon{
+  	font-size: 25px;
+  	cursor: pointer;
+  }
+
+
+  @media(max-width: 767px){
+
+  ul > li{
+  	font-size: 15px;
+  }
+  #description {
+  	padding-top:100px;
+  	height:400px;
+  	color: #000;
+  	background : #ffffe6;
+  	}
+  #prof-img{
+  	width: 170px;
+  	height: 170px;
+  	border-radius: 50%;
+  	border : 10px solid #000;
+  	object-fit: cover;
+  }
+  #name{
+  	font-size: 30px;
+  	font-weight: bolder;
+  	text-align: center;
+  }
+  
+  #name-1{
+  	text-align: center;
+  	letter-spacing: 5px;
+  	font-weight: bold;
+  	color: darkgrey;
+  	font-size: 15px;
+  }
+
+  .heading-sec{
+  	background: #000;
+  	width: 100%;
+  	height: 60px;
+  	margin-bottom: 50px;
+  }
+
+  .heading-sec > h1{
+  	padding-top: 12px;
+  	text-align: center;
+  	color: orange;
+  	font-weight: bold;
+  	font-size: 2em;
+  }
+
+   .para-1{
+  	font-size: 15px;
+  	color: #000;
+  	margin-top: 25px;
+  }
+
+  .head-2{
+  	color: #000;
+  	font-weight: bold;
+  	font-size: 20px;
+  	border-left: 5px solid orange;
+  }
+
+  .exp-1{
+  	background-color: #fff;
+  	padding: 20px;
+  	height: auto;
+  	border-radius: 10px;
+  	margin-bottom: 30px;
+  }
+
+  .exp-1 > h2{
+  	font-size: 20px;
+  	height: auto;
+  	font-weight: bold;
+  	color: orange;
+
+  }
+
+  .right-1{
+  	color: grey!important;
+  	font-style: italic;
+  	font-size: 10px!important;
+  	float: right;
+  }
+
+  .date-1{
+  	color: grey;
+  	font-size: 12px;
+  	margin-top: 20px;
+  }
+
+   #exp-head{
+  	font-size: 18px;
+  	font-weight: bold;
+  	border-left: 8px solid orange;
+  }
+
+   .html-heading{
+  	font-size: 20px;
+  	font-weight: bold;
+  }
+
+  #img-html{
+  	width: 60px;
+  	height: 60px;
+  }
+
+  #img-react{
+  	width: 70px;
+  	height: 60px;
+  	margin-left: 20px;
+  }
+
+  .skills-heading-1{
+  	font-weight: bold;
+  	margin-left: 12px;
+  	font-size: 15px;
+  }
+
+  .skills-heading-2{
+  	font-weight: bold;
+  	margin-left: 38px;
+  	font-size: 15px;
+  }
+
+  #img-css{
+  	width: 60px;
+  	height: 60px;
+  }
+
+  #img-bootstrap{
+  	width: 60px;
+  	height: 60px;
+  	margin-left: 10px;
+  }
+
+  #img-sass{
+  	width: 60px;
+  	height: 60px;
+  }
+
+  .css-heading{
+  	font-size: 20px;
+  	font-weight: bold;
+  	padding-top: 50px;
+  }
+
+  .skills-head-1{
+  	margin-left: 5px;
+  	font-weight: bold;
+  	font-size: 15px
+  }
+
+  .skills-head-2{
+  	margin-left: 7px;
+  	font-weight: bold;
+  	font-size: 15px
+  }
+
+  .skills-head-3{
+  	margin-left: 0px;
+  	font-weight: bold;
+  	font-size: 15px
+  }
+
+   #img-javascript{
+  	width: 60px;
+  	height: 60px;
+  	margin-left: 15px;
+  }
+
+  #img-jquery{
+  	width: 70px;
+  	height: 60px;
+  }
+
+  .skills-js-1{
+  	margin-left: 0px;
+  	font-weight: bold;
+  	font-size: 15px;
+  }
+
+  .skills-js-2{
+  	margin-left: 5px;
+  	font-weight: bold;
+  	font-size: 15px;
+  }
+
+  .skills-js-3{
+  	margin-left: 22px;
+  	font-weight: bold;
+  	font-size: 15px;
+  }
+
+  #img-photoshop{
+  	width: 60px;
+  	height: 60px;
+  	margin-left: 12px;
+  }
+
+  .skills-design-1{
+  	margin-left: 0px;
+  	font-weight: bold;
+  	font-size: 15px;
+  }
+
+  #img-adobe-xd{
+  	width: 60px;
+  	height: 60px;
+  	margin-left: 10px;
+  }
+
+  .skills-design-2{
+  	margin-left: 0px;
+  	font-weight: bold;
+  	font-size: 15px;
+  }
+
+  .edu-part{
+  	background-color:  #fff;
+  	width: 90%;
+  	padding: 20px;
+  	border-radius: 10px;
+  	justify-content: center;
+  	transform: translateX(18%);
+  	margin-left: -40px;
+  }
+
+  #clg-name{
+  	font-weight: bold;
+  	font-size: 18px;
+  }
+
+  #clg-place{
+  	font-size: 15px;
+  	color: grey;
+  }
+
+  #e-mail{
+  	width: 60px;
+  	height: 60px;
+  	border-radius: 50%;
+  	background-color: #000;
+  	box-shadow: 0px 0px 10px 10px orange;
+	padding: 13px 15px 15px 18px;
+	margin: 0px 0px 0px 30px;
+  }
+
+  #mail-icon{
+  	font-size: 25px;
+  	cursor: pointer;
+  }
+
+  #mail-icon:hover{
+  	transform: scale(1.5);
+  	animation: ease;
+  	animation-delay: 5s;
+  }
+
+  #mail{
+  	font-size: 25px;
+  	color: #000;
+  }
+
+  #mail:hover{
+  	color: orange;
+  	text-decoration: none;
+  }
+
+  #linked-in{
+  	width: 60px;
+  	height: 60px;
+  	border-radius: 50%;
+  	background-color: #000;
+  	box-shadow: 0px 0px 10px 10px orange;
+	padding:14px 15px 15px 20px;
+	margin: 0px 20px 0px 130px;
+  }
+
+  #linkedin{
+  	font-size: 25px;
+  	color: #000;
+  }
+
+  #linkedin-icon{
+  	font-size: 25px;
+  	cursor: pointer;
+  }
+
+  #phone{
+  	width: 60px;
+  	height: 60px;
+  	border-radius: 50%;
+  	background-color: #000;
+  	box-shadow: 0px 0px 10px 10px orange;
+	padding:14px 15px 15px 20px;
+	margin: 30px 30px;
+  }
+
+  #calling{
+  	font-size: 25px;
+  	color: #000;
+  }
+
+  #call-icon{
+  	font-size: 25px;
+  	cursor: pointer;
+  }
+
+  #whatsapp{
+  	width: 60px;
+  	height: 60px;
+  	border-radius: 50%;
+  	background-color: #000;
+  	box-shadow: 0px 0px 10px 10px orange;
+	padding:13px 15px 15px 18px;
+	margin: 30px 0px 0px 100px;
+  }
+ 
+}
+
+
+
+
+  
