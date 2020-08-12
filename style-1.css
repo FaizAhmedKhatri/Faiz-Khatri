@@ -7,6 +7,10 @@
   	overflow-x: hidden;
   }
 
+  .navbar-nav > li > a.active{
+	background-color: none;
+  }
+
   .navbar{
   	background-color: #fff;
   	padding: 15px;
