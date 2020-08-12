@@ -15,7 +15,7 @@
   		font-size: 45px;
   	}
   	@media(max-width: 767px){
-  		.fa{
+  	.fa{
   		color: orange;
   		font-size: 30px;
   	}
@@ -44,7 +44,7 @@
           <li><a href="#skills">Skills</a></li>
           <li><a href="#education">Education</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="#resume">Resume</a></li>
+          
    
       </div>
     </div>
@@ -56,7 +56,7 @@
   	<center><img src="img-prof-1.jpeg" id="prof-img"></center>
   </div>
   <h2 id="name">Faiz Ahmed Khatri</h2>
-  <h3 id="name-1">FRONTEND DEVELOPER</h3>
+  <center><span id = "staticText" ><span id="typeline" ></span></span></center>
 </div>
 
 <div id="about" class="">
@@ -76,7 +76,7 @@
   <div class="container">
   	<div class="col-md-12 col-xs-12 exp-1">
   			<h2 class="col-md-6 col-xs-6 text-left left-1">Get A Visit</h2>
-  			<h2 class="col-md-6 col-xs-6 text-right right-1">Junior Frontend Developer</h2>
+  			<h2 class="col-md-6 col-xs-6 text-right right-1">Junior Web Developer</h2>
   			<hr>
 
   			<h3 id="exp-head" class="col-md-12 col-xs-12">Responsive Design to make User Friendly Webpage</h3>
@@ -94,7 +94,7 @@
   				<li>Dramatically increased speed of UI development using sublime text, Bootstrap</li>
   			</ul>
 
-  			<p class="col-md-12 col-xs-12 date-1">Jan 7 2020 - 3 April 2020</p>
+  			<p class="col-md-12 col-xs-12 date-1">Jan 7 2020 - 3 July 2020</p>
   	</div>
   </div>
 
@@ -104,8 +104,38 @@
   <div class="heading-sec">
   	<h1><i class="fa fa-list-alt" aria-hidden="true"></i> Projects</h1>
   </div>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  
+  <div class="container">
+	<div class="row col-md-12 col-sm-12">
+		<div class="col-md-4 col-sm-4 proj-1">
+			<a>
+			    <img src="C:\Users\HP\Desktop\New Resume\bfloor.jpg" alt="thebigfloor" id="bigfloor-img" />
+				<h4>The BigFloor</h4>
+			</a>
+		</div>
+		<div class="col-md-4 col-sm-4 proj-2">
+			<a href="bhavyagems.in">
+				<img src="C:\Users\HP\Desktop\New Resume\bhavyagems.jpeg" alt="bhavyagems" id="bhavyagems-img" />
+				<h4>Bhavya Gems</h4>
+			</a>
+		</div>
+		<div class="col-md-4 col-sm-4 proj-3">
+			<a href="mistryconstructioncoin.000webhostapp.com">
+				<img src="C:\Users\HP\Desktop\New Resume\mistrycons.png" alt="mistrycons" id="mistrycons-img" />
+				<h4>JK Construction</h4>
+			</a>
+		</div>
+	</div>
+	<div class="row col-md-12 col-sm-12">
+	    <div class="col-md-4 col-sm-4 proj-4">
+		    <a href="getavisit.com">
+				<img src="C:\Users\HP\Desktop\New Resume\getavisit.png" alt="getavisit" id="getavisit-img" />
+				<h4>Get A Visit</h4>
+			</a>
+		</div>
+	</div>
+  </div>
+   
 </div>
 
 <div id="skills" class="">
@@ -208,7 +238,7 @@
   </div>
 
   <div class="container">
-  <div class="row col-md-12 col-xs-12">
+  <div class="row col-md-12 col-xs-12 social-links">
   	<div class="col-md-6 col-xs-6" id="e-mail">
   		<a href="mailto:faizkhatri1997@gmail.com" target="_blank" id="mail"><i class="fa fa-envelope" id="mail-icon">
   			
@@ -230,8 +260,8 @@
   	</div>
 
   	<div class="col-md-6 col-xs-6" id="whatsapp">
-  		<a href="tel:+91 8104136255" target="_blank" id="calling">
-  			<i class="fa fa-whatsapp" id="call-icon"></i>
+  		<a href="https://wa.me/8104136255" target="_blank" id="wapp">
+  			<i class="fa fa-whatsapp" id="wapp-icon"></i>
   		</a>
   	</div>
 
@@ -242,5 +272,58 @@
   </div>
 
 </div>
+
+<script>
+	 function write (obj, sentence, i, cb) {
+                    if (i != sentence.length) {
+                      setTimeout(function () {
+                        i++
+                        console.log('in timeout', i)
+                        obj.innerHTML = sentence.substr(0, i+1) +' <em aria-hidden="true"></em>';
+                        write(obj, sentence, i, cb)
+                      }, 50)
+                    } else {
+                      console.log(i)
+                      cb()
+                    }
+                  }
+                   function erase (obj, cb,i) {
+                   var sentence = obj.innerText
+                      if (sentence.length != 0) {
+                       setTimeout(function () {
+                       sentence = sentence.substr(0,sentence.length-1)
+                       console.log('in timeout', i)
+                       obj.innerText = sentence
+                       erase(obj, cb)
+                        }, 18/(i*(i/10000000)))
+                        } else {
+                        obj.innerText = " "
+                        cb()
+                     }
+                    }
+                    var typeline = document.querySelector("#typeline")
+
+                     function writeerase(obj, sentence, time, cb) {
+                      write(obj, sentence, 0, function () {
+                       setTimeout(function () {
+                       erase(obj, cb) }, time) })
+                       }
+
+                  var sentences = [
+                    "Web Developer ",
+                    "Web Designer ",
+                    "Digital Marketer "
+                    
+                  ]
+                    
+                  var counter = 0
+                  function loop () {
+                    var sentence = sentences[counter % sentences.length]
+                    writeerase(typeline, sentence, 1500, loop)
+                    counter++
+                  }
+
+                  loop()
+</script>
 </body>
 </html>
