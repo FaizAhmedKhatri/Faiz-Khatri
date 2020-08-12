@@ -421,10 +421,12 @@
   #getavisit-img{
 	width: 350px;
 	height: 400px; 
-	margin-top:50px;
-	margin-bottom:50px;
 	background-color:#423f3f; 
 	filter: grayscale(100%);
+  }
+
+  .proj-4{
+	  margin:50px 0px;
   }
 
   .proj-1 > h4{
