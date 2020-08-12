@@ -7,13 +7,10 @@
   	overflow-x: hidden;
   }
 
-  .navbar-nav > li > a.active{
-	background-color: none;
-  }
 
   .navbar{
-  	background-color: #fff;
-  	padding: 15px;
+  	background-color: #000;
+  	padding: 15px 15px 15px 25px;
   }
   #description {
   	padding-top:100px;
@@ -281,17 +278,17 @@
   }
 
   #e-mail{
-  	width: 60px;
-  	height: 60px;
+  	width: 90px;
+  	height: 90px;
   	border-radius: 50%;
-  	background-color: #000;
+  	background-color: #fff;
   	box-shadow: 0px 0px 10px 10px orange;
-	padding: 13px 15px 15px 18px;
+	padding: 26px 30px 30px 28px;
 	margin: 0px 30px;
   }
 
   #mail-icon{
-  	font-size: 25px;
+  	font-size: 35px;
   	cursor: pointer;
   }
 
@@ -312,12 +309,12 @@
   }
 
   #linked-in{
-  	width: 60px;
-  	height: 60px;
+  	width: 90px;
+  	height: 90px;
   	border-radius: 50%;
-  	background-color: #000;
+  	background-color: #fff;
   	box-shadow: 0px 0px 10px 10px orange;
-	padding:14px 15px 15px 20px;
+	padding: 27px 30px 30px 28px;
 	margin: 0px 30px;
   }
 
@@ -327,17 +324,17 @@
   }
 
   #linkedin-icon{
-  	font-size: 25px;
+  	font-size: 40px;
   	cursor: pointer;
   }
 
    #phone{
-  	width: 60px;
-  	height: 60px;
+  	width: 90px;
+  	height: 90px;
   	border-radius: 50%;
-  	background-color: #000;
+  	background-color: #fff;
   	box-shadow: 0px 0px 10px 10px orange;
-	padding:14px 15px 15px 20px;
+	padding: 29px 30px 30px 31px;
 	margin: 0px 30px;
   }
 
@@ -347,8 +344,91 @@
   }
 
   #call-icon{
-  	font-size: 25px;
+  	font-size: 35px;
   	cursor: pointer;
+  }
+
+   #whatsapp{
+  	width: 90px;
+  	height: 90px;
+  	border-radius: 50%;
+  	background-color: #fff;
+  	box-shadow: 0px 0px 10px 10px orange;
+	padding:28px 30px 30px 29px;
+	margin: 0px 0px 0px 30px;
+  }
+
+  #wapp{
+	font-size: 25px;
+	color: #000;
+  }
+
+  #wapp-icon{
+	font-size: 38px;
+	cursor: pointer;
+}
+
+  #staticText{
+	font-size: 2rem;
+	line-height: 1;
+	font-weight: 100;
+  }
+  
+  
+  #typeline {
+	font-size: 4rem;
+	line-height: 1.2;
+	color: rgb(77, 77, 80);
+	
+  }
+  
+  @keyframes blink-caret { 50% { border-color: transparent; } }
+  em {
+	  border-right: .1em solid black;
+	  width: 20ch;
+	  white-space: nowrap;
+	  overflow: hidden;
+		margin-top: 0;
+		color: #3295dd;
+	  animation: typing 3s steps(21, end),
+	  blink-caret .5s step-end infinite alternate;
+  }
+
+ 
+
+  #bigfloor-img{
+	  width: 350px;
+	  height: 400px;
+	  background-color:#423f3f;
+	  filter: grayscale(100%);
+	 
+  }
+
+  #bhavyagems-img{
+	width: 350px;
+	height: 400px;
+	background-color:#423f3f;
+	filter: grayscale(100%);
+  }
+
+  #mistrycons-img{
+	width: 350px;
+	height: 400px; 
+	background-color:#423f3f;
+	filter: grayscale(100%);
+  }
+
+  #getavisit-img{
+	width: 350px;
+	height: 400px; 
+	margin-top:50px;
+	margin-bottom:50px;
+	background-color:#423f3f; 
+	filter: grayscale(100%);
+  }
+
+  .proj-1 > h4{
+	  background-color: rgb(245, 194, 194);
   }
 
 
@@ -570,12 +650,10 @@
 
   .edu-part{
   	background-color:  #fff;
-  	width: 90%;
+  	width: 100%;
   	padding: 20px;
   	border-radius: 10px;
-  	justify-content: center;
-  	transform: translateX(18%);
-  	margin-left: -40px;
+  	transform: translateX(0%);
   }
 
   #clg-name{
@@ -668,6 +746,13 @@
 	padding:13px 15px 15px 18px;
 	margin: 30px 0px 0px 100px;
   }
+  #typeline {
+	font-size: 2.5rem;
+	line-height: 1.2;
+	color: rgb(77, 77, 80);
+	
+  }
+
  
 }
 
