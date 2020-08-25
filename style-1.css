@@ -425,9 +425,28 @@
 	filter: grayscale(100%);
   }
 
-  .proj-4{
-	  margin:50px 0px;
+ .proj-1{
+	  padding : 10px;
+	  background-color: #fff;
   }
+
+.proj-2{
+	  padding : 10px;
+	  background-color: #fff;
+  }
+
+.proj-3{
+	  padding : 10px;
+	  background-color: #fff;
+  }
+
+ .proj-4{
+	  margin:50px 0px;
+	  padding : 10px;
+	  background-color: #fff;
+  }
+
+
 
   .proj-1 > h4{
 	  background-color: rgb(245, 194, 194);
