@@ -397,7 +397,7 @@
  
 
   #bigfloor-img{
-	  width: 350px;
+	  width: 330px;
 	  height: 400px;
 	  background-color:#423f3f;
 	  filter: grayscale(100%);
@@ -405,21 +405,21 @@
   }
 
   #bhavyagems-img{
-	width: 350px;
+	width: 330px;
 	height: 400px;
 	background-color:#423f3f;
 	filter: grayscale(100%);
   }
 
   #mistrycons-img{
-	width: 350px;
+	width: 330px;
 	height: 400px; 
 	background-color:#423f3f;
 	filter: grayscale(100%);
   }
 
   #getavisit-img{
-	width: 350px;
+	width: 330px;
 	height: 400px; 
 	background-color:#423f3f; 
 	filter: grayscale(100%);
