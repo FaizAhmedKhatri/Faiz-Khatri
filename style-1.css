@@ -1,5 +1,5 @@
   *{
-  	font-family: Lucida Console;
+  	font-family: Arial Rounded MT;
   	color: #000;
   }
   body{
@@ -23,7 +23,7 @@
   	height:500px;
   	color: #fff;
   	background-color: #ffffe6;
-	  margin-bottom: 20px;
+        margin-bottom: 20px;
   	}
   #experience {
   	padding-top:0px;
