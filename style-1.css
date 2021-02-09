@@ -41,6 +41,10 @@
   	background-color: #ffffe6;
   	margin-bottom: 100px;
   }
+
+  #contact{
+	margin-bottom:50px;
+  }
   
   .navbar-inverse .navbar-nav>.active>a, .navbar-inverse
   .navbar-nav>.active>a:focus, .navbar-inverse 
