@@ -404,7 +404,7 @@
  
 
   #bigfloor-img{
-	  width: 330px;
+	  width: 285px;
 	  height: 400px;
 	  background-color:#423f3f;
 	  filter: grayscale(100%);
@@ -412,14 +412,14 @@
   }
 
   #bhavyagems-img{
-	width: 330px;
+	width: 285px;
 	height: 400px;
 	background-color:#423f3f;
 	filter: grayscale(100%);
   }
 
   #mistrycons-img{
-	width: 330px;
+	width: 285px;
 	height: 400px; 
 	background-color:#423f3f;
 	filter: grayscale(100%);
@@ -435,16 +435,19 @@
  .proj-1{
 	  padding : 10px;
 	  background-color: #fff;
+	 margin-right:10px;
   }
 
 .proj-2{
 	  padding : 10px;
 	  background-color: #fff;
+	margin-right:10px;
   }
 
 .proj-3{
 	  padding : 10px;
 	  background-color: #fff;
+	margin-right:10px;
   }
 
  .proj-4{
