@@ -154,41 +154,22 @@
 </div>
 
 <div id="projects" class="">
-  <div class="heading-sec">
-  	<h1><i class="fa fa-list-alt" aria-hidden="true"></i> Projects</h1>
+  <div class="carousel-wrap">
+  <div class="owl-carousel">
+    <div class="item"><img src="http://placehold.it/150x150"></div>
+    <div class="item"><img src="http://placehold.it/150x150"></div>
+    <div class="item"><img src="http://placehold.it/150x150"></div>
+    <div class="item"><img src="http://placehold.it/150x150"></div>
+    <div class="item"><img src="http://placehold.it/150x150"></div>
+    <div class="item"><img src="http://placehold.it/150x150"></div>
+    <div class="item"><img src="http://placehold.it/150x150"></div>
+    <div class="item"><img src="http://placehold.it/150x150"></div>
+    <div class="item"><img src="http://placehold.it/150x150"></div>
+    <div class="item"><img src="http://placehold.it/150x150"></div>
+    <div class="item"><img src="http://placehold.it/150x150"></div>
+    <div class="item"><img src="http://placehold.it/150x150"></div>
   </div>
-  
-  <div class="container">
-	<div class="row col-md-12 col-sm-12">
-		<div class="col-md-4 col-sm-12 proj-1">
-			<a>
-			    <img src="bfloor.jpg" alt="thebigfloor" id="bigfloor-img" />
-				<h4>The BigFloor</h4>
-			</a>
-		</div>
-		<div class="col-md-4 col-sm-12 proj-2">
-			<a href="http://bhavyagems.in" target="_blank">
-				<img src="bhavyagems.jpeg" alt="bhavyagems" id="bhavyagems-img" />
-				<h4>Bhavya Gems</h4>
-			</a>
-		</div>
-		<div class="col-md-4 col-sm-12 proj-3">
-			<a href="http://mistryconstructioncoin.000webhostapp.com" target="_blank">
-				<img src="mistrycons.png" alt="mistrycons" id="mistrycons-img" />
-				<h4>JK Construction</h4>
-			</a>
-		</div>
-	</div>
-	<div class="row col-md-12 col-sm-12">
-	    <div class="col-md-4 col-sm-12 proj-4">
-		    <a href="http://getavisit.com" target="_blank">
-				<img src="getavisit.png" alt="getavisit" id="getavisit-img" />
-				<h4>Get A Visit</h4>
-			</a>
-		</div>
-	</div>
-  </div>
-   
+</div> 
 </div>
 
 <div id="skills" class="">
@@ -378,5 +359,30 @@
 
                   loop()
 </script>
+	
+	<script>
+		$('.owl-carousel').owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: true,
+  navText: [
+    "<i class='fa fa-caret-left'></i>",
+    "<i class='fa fa-caret-right'></i>"
+  ],
+  autoplay: true,
+  autoplayHoverPause: true,
+  responsive: {
+    0: {
+      items: 1
+    },
+    600: {
+      items: 3
+    },
+    1000: {
+      items: 5
+    }
+  }
+})
+	</script>
 </body>
 </html>
